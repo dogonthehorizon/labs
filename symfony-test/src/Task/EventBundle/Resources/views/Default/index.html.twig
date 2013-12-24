@@ -1,0 +1,12 @@
+{% extends '::base.html.twig' %}
+
+{% block title 'Task App'  %}
+{% block body %}
+    Hello <strong>{{ name }}</strong>, you have <em>{{ count }}</em> tasks! <br /><br />
+    {{ content }} <br />
+    <ul>
+    {% for i in 1..count %}
+        <li>task {{ i }}</li>
+    {% endfor %}
+    </ul>
+{% endblock %}
