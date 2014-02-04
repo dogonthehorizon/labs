@@ -1,0 +1,19 @@
+{
+  "name": "test-coverage-examples",
+  "version": "0.0.1",
+  "description": "A simple node example of testing and unit coverage.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernando Freire <dogonthehorizon@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.17.0",
+    "blanket": "~1.1.6"
+  },
+  "dependencies": {
+    "commander": "~2.1.0"
+  }
+}
