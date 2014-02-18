@@ -1,26 +1,67 @@
 body {
-	margin: 2% 20%;
+    width: 100%;
+    height: 100%;
+}
+
+#heading {
+    height: 100%;
+    background: #2c3e50;
+    padding: 100px 0;
+}
+
+.text {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
 }
 
 h1 {
-	font-family: "adobe-caslon-pro" serif;
+	font-family: "adobe-caslon-pro", serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 4em;
 	letter-spacing: 3px;
 	text-align: center;
+    color: #ecf0f1;
+    margin: 0 auto;
 }
 
 h2 {
-	font-family: "adobe-caslon-pro" serif;
+	font-family: 'adobe-caslon-pro', serif;
 	font-weight: 400;
 	font-style: italic;
 	font-size: 3em;
 	text-align: center;
+    color: #ecf0f1;
+    margin: 0 auto;
+}
+
+p {
+    font-family: 'prenton', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.start-p {
+    font-family: 'adobe-caslon-pro', serif;
+    font-weight: 700;
+    font-size: 3em;
+    float: left;
+}
+
+.inline-quote {
+    font-family: 'adobe-caslon-pro', serif;
+    font-weight: 300;
+    font-style: italic;
 }
 
 #amp-weight {
-	font-family: "adobe-caslon-pro" serif;
+	font-family: "adobe-caslon-pro", serif;
 	font-weight: 400;
 	font-style: italic;	
 }
