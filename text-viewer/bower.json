@@ -1,0 +1,35 @@
+{
+  "name": "text-viewer",
+  "version": "0.0.1",
+  "authors": [
+    "Fernando Freire <dogonthehorizon@gmail.com>"
+  ],
+  "description": "An e-reader, of sorts.",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vex":"latest"
+  },
+  "install": {
+    "path": {
+        "js": "js/vendor",
+        "css": "css/vendor",
+        "scss": "scss/vendor"
+    },
+    "sources": {
+        "vex": [
+            "bower_components/vex/js/vex.dialog.min.js",
+            "bower_components/vex/js/vex.min.js",
+            "bower_components/vex/css/vex.css",
+            "bower_components/vex/css/vex-theme-os.css"
+        ]
+    }
+  }
+}
