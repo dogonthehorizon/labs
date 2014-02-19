@@ -3,3 +3,4 @@
 */.idea
 */*.iml
 nw-tomfoolery/tmp
+text-viewer/*/vendor
