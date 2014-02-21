@@ -2,7 +2,7 @@
   "name": "text-viewer",
   "version": "0.0.0",
   "description": "An e-reader, of sorts.",
-  "main": " ",
+  "main": "app.js",
   "scripts": {
     "test": " "
   },
@@ -14,7 +14,21 @@
   "author": "Fernando Freire <dogonthehorizon@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "node-bourbon": "~1.0.0",
+    "express": "~3.4.8",
+    "nconf": "~0.6.9",
+    "jade": "~1.1.5"
+  },
+  "devDependencies": {
     "bower-installer": "~0.6.1",
-    "bower": "~1.2.8"
+    "bower": "~1.2.8",
+    "gulp-util": "~2.2.14",
+    "gulp": "~3.5.2",
+    "gulp-uglify": "~0.2.1",
+    "gulp-sass": "~0.7.0",
+    "gulp-watch": "~0.5.0",
+    "gulp-nodemon": "~0.1.2",
+    "nodemon": "~1.0.15",
+    "gulp-plumber": "~0.5.6"
   }
 }

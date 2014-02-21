@@ -1,0 +1,17 @@
+doctype html
+
+html
+    head
+        title= title
+        link(rel='stylesheet', href='css/main.css')
+        script(type='text/javascript', src='//use.typekit.net/zsb1hbu.js')
+        script try{Typekit.load();}catch(e){}
+
+    body
+        block header
+            div#header
+                h1#bookTitle= bookTitle
+                h2#currentChapter= currentChapter
+                span#aboutButton About
+        block content
+        block footer

@@ -15,13 +15,13 @@
     "tests"
   ],
   "dependencies": {
-    "vex":"latest"
+    "vex": "latest"
   },
   "install": {
     "path": {
-        "js": "js/vendor",
-        "css": "css/vendor",
-        "scss": "scss/vendor"
+        "js": "resources/public/js/vendor",
+        "css": "resources/public/css/vendor",
+        "scss": "resources/sass/vendor"
     },
     "sources": {
         "vex": [

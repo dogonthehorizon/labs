@@ -1,0 +1,8 @@
+{
+    "verbose": true,
+    "ignore": ["test/*", "resources/public/*", "resources/scss/*", ".idea/*", "*.iml"],
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ext": "js json jade"
+}
