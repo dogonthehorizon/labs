@@ -5,3 +5,13 @@
 nw-tomfoolery/tmp
 text-viwer/public/css/*
 text-viwer/public/js/vendor/*
+
+
+# play testing
+play-framework/zentasks/logs
+play-framework/zentasks/project/project
+play-framework/zentasks/project/target
+play-framework/zentasks/target
+play-framework/zentasks/tmp
+play-framework/zentasks/dist
+play-framework/zentasks/.cache
