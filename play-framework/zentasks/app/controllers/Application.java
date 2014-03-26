@@ -1,6 +1,7 @@
 package controllers;
 
 import models.*;
+import play.Routes;
 import play.mvc.*;
 import play.data.*;
 import views.html.login;
@@ -44,6 +45,21 @@ public class Application extends Controller {
         flash("success", "You've been logged out.");
         return redirect(
                 routes.Application.login()
+        );
+    }
+
+    // todo: debug why this action is causing errors
+    public static Result javascriptRoutes() {
+
+        response().setContentType("text/javascript");
+
+        return ok(
+                Routes.javascriptRouter("jsRoutes",
+                        controllers.routes.javascript.Projects.add(),
+                        controllers.routes.javascript.Projects.delete(),
+                        controllers.routes.javascript.Projects.rename(),
+                        controllers.routes.javascript.Projects.addGroup()
+                )
         );
     }
 
