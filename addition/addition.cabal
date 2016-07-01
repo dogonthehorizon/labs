@@ -6,12 +6,13 @@ author:         Fernando Freire
 maintainer:     no.u@example.com
 category:       Text
 build-type:     Simple
-cabal-verison:  >=1.10
+cabal-version:  >=1.10
 
 library
   exposed-modules:      Addition
   ghc-options:          -Wall -fwarn-tabs
   build-depends:        base >=4.7 && <5,
-                        hspec
+                        hspec,
+                        QuickCheck
   hs-source-dirs:       .
   default-language:     Haskell2010

@@ -15,3 +15,6 @@ play-framework/zentasks/target
 play-framework/zentasks/tmp
 play-framework/zentasks/dist
 play-framework/zentasks/.cache
+
+# hspec/quickcheck testing
+addition/.stack-work
