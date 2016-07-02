@@ -17,4 +17,4 @@ play-framework/zentasks/dist
 play-framework/zentasks/.cache
 
 # hspec/quickcheck testing
-addition/.stack-work
+*/.stack-work
