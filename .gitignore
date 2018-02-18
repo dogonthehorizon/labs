@@ -18,3 +18,15 @@ play-framework/zentasks/.cache
 
 # hspec/quickcheck testing
 */.stack-work
+
+### Vim ###
+# swap
+.sw[a-p]
+.*.sw[a-p]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
