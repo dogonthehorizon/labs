@@ -13,7 +13,7 @@ object App extends App {
         val age = Printable.format(cat.age)
         val color = Printable.format(cat.color.toLowerCase)
 
-        s"$name is a $age year old $color"
+        s"$name is a $age year old $color cat."
       }
     }
 
